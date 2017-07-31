@@ -1,0 +1,13 @@
+c:\users\grib\documents\visual studio 2017\Projects\QABillingBot\QABillingBot\bin\Debug\QABillingBot.exe.config
+c:\users\grib\documents\visual studio 2017\Projects\QABillingBot\QABillingBot\bin\Debug\QABillingBot.exe
+c:\users\grib\documents\visual studio 2017\Projects\QABillingBot\QABillingBot\bin\Debug\QABillingBot.pdb
+c:\users\grib\documents\visual studio 2017\Projects\QABillingBot\QABillingBot\bin\Debug\GiphyDotNet.dll
+c:\users\grib\documents\visual studio 2017\Projects\QABillingBot\QABillingBot\bin\Debug\Newtonsoft.Json.dll
+c:\users\grib\documents\visual studio 2017\Projects\QABillingBot\QABillingBot\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+c:\users\grib\documents\visual studio 2017\Projects\QABillingBot\QABillingBot\bin\Debug\Telegram.Bot.dll
+c:\users\grib\documents\visual studio 2017\Projects\QABillingBot\QABillingBot\bin\Debug\Newtonsoft.Json.xml
+c:\users\grib\documents\visual studio 2017\Projects\QABillingBot\QABillingBot\obj\Debug\QABillingBot.csprojResolveAssemblyReference.cache
+c:\users\grib\documents\visual studio 2017\Projects\QABillingBot\QABillingBot\obj\Debug\QABillingBot.exe
+c:\users\grib\documents\visual studio 2017\Projects\QABillingBot\QABillingBot\obj\Debug\QABillingBot.pdb
+c:\users\grib\documents\visual studio 2017\Projects\QABillingBot\QABillingBot\obj\Debug\QABillingBot.ProjectInstaller.resources
+c:\users\grib\documents\visual studio 2017\Projects\QABillingBot\QABillingBot\obj\Debug\QABillingBot.csproj.GenerateResource.Cache
