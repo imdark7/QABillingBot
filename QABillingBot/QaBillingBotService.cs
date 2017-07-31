@@ -48,7 +48,7 @@ namespace QABillingBot
             var gif = new FileToSend(GetRandomGifUri());
 
             await Bot.SendTextMessageAsync(message.Chat.Id, @"Дорогой друг! Твое сообщение передано группе тестирования Биллинга, скоро с тобой свяжутся и ответят.");
-            await Bot.SendVideoAsync(SupportChatId, gif);
+            await Bot.SendVideoAsync(message.Chat.Id, gif);
 
             await Bot.SendTextMessageAsync(QaBillingChatId, $@"{message.From.FirstName} {message.From.LastName} пишет нам:");
             var forvardedMessage = await Bot.ForwardMessageAsync(QaBillingChatId, message.Chat.Id, message.MessageId);
