@@ -1,6 +1,6 @@
 ﻿namespace QABillingBot
 {
-    partial class QaBillingBotService
+    partial class QaBillingBot
     {
         /// <summary> 
         /// Required designer variable.
@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             components = new System.ComponentModel.Container();
-            this.ServiceName = "QaBillingBotService";
+            this.ServiceName = "QaBillingBot";
         }
 
         #endregion

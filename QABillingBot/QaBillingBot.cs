@@ -10,13 +10,13 @@ using Telegram.Bot.Types.Enums;
 
 namespace QABillingBot
 {
-    public partial class QaBillingBotService : ServiceBase
+    public partial class QaBillingBot : ServiceBase
     {
         private static readonly TelegramBotClient Bot = new TelegramBotClient("338156685:AAHEQ5vvvzxisVggLM9U6WdmqXteP9n-s1g");
         private const long QaBillingChatId = -1001118390469;
         private const long SupportChatId = 293233922;
 
-        public QaBillingBotService()
+        public QaBillingBot()
         {
             InitializeComponent();
         }

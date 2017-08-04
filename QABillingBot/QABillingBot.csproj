@@ -66,11 +66,11 @@
     <Compile Include="ProjectInstaller.Designer.cs">
       <DependentUpon>ProjectInstaller.cs</DependentUpon>
     </Compile>
-    <Compile Include="QaBillingBotService.cs">
+    <Compile Include="QaBillingBot.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="QaBillingBotService.Designer.cs">
-      <DependentUpon>QaBillingBotService.cs</DependentUpon>
+    <Compile Include="QaBillingBot.Designer.cs">
+      <DependentUpon>QaBillingBot.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

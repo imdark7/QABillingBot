@@ -1,26 +1,9 @@
-﻿Выполняется установка сборки 'C:\Users\grib\Documents\Visual Studio 2017\Projects\QABillingBot\QABillingBot\bin\Debug\QABillingBot.exe'.
+﻿Выполняется удаление сборки 'C:\Users\grib\Documents\Visual Studio 2017\Projects\QABillingBot\QABillingBot\bin\Debug\QABillingBot.exe'.
 Затронуты следующие параметры:
    logtoconsole = 
    logfile = C:\Users\grib\Documents\Visual Studio 2017\Projects\QABillingBot\QABillingBot\bin\Debug\QABillingBot.InstallLog
    assemblypath = C:\Users\grib\Documents\Visual Studio 2017\Projects\QABillingBot\QABillingBot\bin\Debug\QABillingBot.exe
-Устанавливается служба QaBillingBotService...
-Создается исходный EventLog QaBillingBotService в журнале Application...
-Выполняется откат для сборки 'C:\Users\grib\Documents\Visual Studio 2017\Projects\QABillingBot\QABillingBot\bin\Debug\QABillingBot.exe'.
-Затронуты следующие параметры:
-   logtoconsole = 
-   logfile = C:\Users\grib\Documents\Visual Studio 2017\Projects\QABillingBot\QABillingBot\bin\Debug\QABillingBot.InstallLog
-   assemblypath = C:\Users\grib\Documents\Visual Studio 2017\Projects\QABillingBot\QABillingBot\bin\Debug\QABillingBot.exe
-Восстанавливается исходное состояние журнала событий для источника QaBillingBotService.
-Выполняется установка сборки 'C:\Users\grib\Documents\Visual Studio 2017\Projects\QABillingBot\QABillingBot\bin\Debug\QABillingBot.exe'.
-Затронуты следующие параметры:
-   logtoconsole = 
-   logfile = C:\Users\grib\Documents\Visual Studio 2017\Projects\QABillingBot\QABillingBot\bin\Debug\QABillingBot.InstallLog
-   assemblypath = C:\Users\grib\Documents\Visual Studio 2017\Projects\QABillingBot\QABillingBot\bin\Debug\QABillingBot.exe
-Устанавливается служба QaBillingBotService...
-Служба QaBillingBotService успешно установлена.
-Создается исходный EventLog QaBillingBotService в журнале Application...
-Выполняется фиксация сборки 'C:\Users\grib\Documents\Visual Studio 2017\Projects\QABillingBot\QABillingBot\bin\Debug\QABillingBot.exe'.
-Затронуты следующие параметры:
-   logtoconsole = 
-   logfile = C:\Users\grib\Documents\Visual Studio 2017\Projects\QABillingBot\QABillingBot\bin\Debug\QABillingBot.InstallLog
-   assemblypath = C:\Users\grib\Documents\Visual Studio 2017\Projects\QABillingBot\QABillingBot\bin\Debug\QABillingBot.exe
+Выполняется удаление источника EventLog QaBillingBotService.
+При выполнении программы установки System.Diagnostics.EventLogInstaller во время установки возникло исключение.
+System.Security.SecurityException: Запрошенный доступ к реестру запрещен.
+При удалении из системы возникло исключение. Это исключение будет проигнорировано, и удаление из системы будет продолжено. Однако после завершения удаления данное приложение может оказаться не полностью удаленным.

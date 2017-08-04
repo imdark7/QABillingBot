@@ -20,7 +20,7 @@ namespace QABillingBot
         {
             var servicesToRun = new ServiceBase[]
             {
-                new QaBillingBotService()
+                new QaBillingBot()
             };
             ServiceBase.Run(servicesToRun);
         }
