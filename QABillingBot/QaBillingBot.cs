@@ -14,7 +14,7 @@ namespace QABillingBot
     {
         private static readonly TelegramBotClient Bot = new TelegramBotClient("338156685:AAHEQ5vvvzxisVggLM9U6WdmqXteP9n-s1g");
         private const long QaBillingChatId = -1001118390469;
-        private const long SupportChatId = 293233922;
+        private const long SupportChatId = -1001121829344;
 
         public QaBillingBot()
         {
@@ -43,7 +43,7 @@ namespace QABillingBot
         {
             var message = messageEventArgs.Message;
 
-            if (message == null || message.Type != MessageType.TextMessage || message.Text == "/start" || message.Chat.Id == QaBillingChatId) return;
+            if (message == null || message.Text == "/start" || message.Chat.Id == QaBillingChatId) return;
 
             var gif = new FileToSend(GetRandomGifUri());
 
