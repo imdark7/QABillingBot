@@ -11,3 +11,17 @@ c:\users\grib\documents\visual studio 2017\Projects\QABillingBot\QABillingBot\ob
 c:\users\grib\documents\visual studio 2017\Projects\QABillingBot\QABillingBot\obj\Debug\QABillingBot.pdb
 c:\users\grib\documents\visual studio 2017\Projects\QABillingBot\QABillingBot\obj\Debug\QABillingBot.ProjectInstaller.resources
 c:\users\grib\documents\visual studio 2017\Projects\QABillingBot\QABillingBot\obj\Debug\QABillingBot.csproj.GenerateResource.Cache
+C:\Users\Dark\Documents\GitHub\QABillingBot\QABillingBot\bin\Debug\QABillingBot.exe.config
+C:\Users\Dark\Documents\GitHub\QABillingBot\QABillingBot\bin\Debug\QABillingBot.exe
+C:\Users\Dark\Documents\GitHub\QABillingBot\QABillingBot\bin\Debug\QABillingBot.pdb
+C:\Users\Dark\Documents\GitHub\QABillingBot\QABillingBot\bin\Debug\GiphyDotNet.dll
+C:\Users\Dark\Documents\GitHub\QABillingBot\QABillingBot\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Dark\Documents\GitHub\QABillingBot\QABillingBot\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Dark\Documents\GitHub\QABillingBot\QABillingBot\bin\Debug\Telegram.Bot.dll
+C:\Users\Dark\Documents\GitHub\QABillingBot\QABillingBot\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Dark\Documents\GitHub\QABillingBot\QABillingBot\bin\Debug\Telegram.Bot.xml
+C:\Users\Dark\Documents\GitHub\QABillingBot\QABillingBot\obj\Debug\QABillingBot.csprojResolveAssemblyReference.cache
+C:\Users\Dark\Documents\GitHub\QABillingBot\QABillingBot\obj\Debug\QABillingBot.ProjectInstaller.resources
+C:\Users\Dark\Documents\GitHub\QABillingBot\QABillingBot\obj\Debug\QABillingBot.csproj.GenerateResource.Cache
+C:\Users\Dark\Documents\GitHub\QABillingBot\QABillingBot\obj\Debug\QABillingBot.exe
+C:\Users\Dark\Documents\GitHub\QABillingBot\QABillingBot\obj\Debug\QABillingBot.pdb
