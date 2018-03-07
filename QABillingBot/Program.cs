@@ -4,7 +4,6 @@ namespace QABillingBot
 {
     static class Program
     {
-
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
@@ -16,6 +15,5 @@ namespace QABillingBot
             };
             ServiceBase.Run(servicesToRun);
         }
-        
     }
 }

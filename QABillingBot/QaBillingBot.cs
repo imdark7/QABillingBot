@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
 using System.Net.Http;
@@ -30,6 +29,7 @@ namespace QABillingBot
             Bot.OnMessageEdited += BotOnMessageReceived;
             Bot.OnReceiveError += BotOnReceiveError;
             Bot.StartReceiving();
+            Bot.SendTextMessageAsync(QaBillingChatId, "Доброго утречка, котики! :3");
         }
 
         protected override void OnStop()
@@ -50,6 +50,7 @@ namespace QABillingBot
             if (message.Text == "/ping")
             {
                 Bot.SendTextMessageAsync(message.Chat.Id, GetRandomPingResponse());
+                return;
             }
 
             var gif = new FileToSend(GetRandomGifUri());
