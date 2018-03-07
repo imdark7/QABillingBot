@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
 using System.Net.Http;
@@ -46,6 +47,10 @@ namespace QABillingBot
             var message = messageEventArgs.Message;
 
             if (message == null || message.Text == "/start" || message.Chat.Id == QaBillingChatId) return;
+            if (message.Text == "/ping")
+            {
+                Bot.SendTextMessageAsync(message.Chat.Id, GetRandomPingResponse());
+            }
 
             var gif = new FileToSend(GetRandomGifUri());
 
@@ -83,7 +88,7 @@ namespace QABillingBot
             Bot.SendVideoAsync(message.Chat.Id, gif, cancellationToken: cancellationToken).GetAwaiter().GetResult();
         }
 
-        public static void Log(Message message, TextWriter w)
+        private static void Log(Message message, TextWriter w)
         {
             w.WriteLine($"Username: {message.Chat.Username} ({message.Chat.LastName} {message.Chat.FirstName})");
             w.WriteLine("Chat ID: " + message.Chat.Id);
@@ -102,6 +107,25 @@ namespace QABillingBot
                 .ReadAsStringAsync()
                 .GetAwaiter().GetResult();
             return new Uri(JsonConvert.DeserializeObject<GiphyDotNet.Model.Results.GiphyRandomResult>(result).Data.ImageMp4Url);
+        }
+
+        private static string GetRandomPingResponse()
+        {
+            var rnd = new Random();
+            var list = new[]
+            {
+                "Сам ты пинг",
+                "Qu'est-ce que c'es?",
+                "Pong",
+                "Отлично! Работаем дальше",
+                "Вы великолепны!",
+                "Format disc C complete",
+                "Вы тронули меня в самое сердце <3",
+                "Да не сплю я, не сплю",
+                "42",
+                "А меня все хорошо, а у Вас?"
+            };
+            return list[rnd.Next(0, 10)];
         }
     }
 }
